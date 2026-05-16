@@ -1,5 +1,5 @@
+"use client";
 import { Phone } from "lucide-react";
-import logo from "../assets/firas_logo_just.png";
 
 const navLinks = [
   { label: "Anasayfa", href: "#hero" },
@@ -28,7 +28,7 @@ export function Footer() {
           {/* Brand Col */}
           <div className="md:col-span-4">
             <a href="#" className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="Firas Real Estate" className="h-30 w-auto object-contain" />
+              <img src="assets/firas_logo_just.png" alt="Firas Real Estate" className="h-30 w-auto object-contain" />
               <div className="flex flex-col ml-3 mt-2">
                 <span className="font-serif text-4xl tracking-widest font-bold text-primary">
                   FİRAS

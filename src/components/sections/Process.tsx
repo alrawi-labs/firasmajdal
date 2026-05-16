@@ -2,7 +2,6 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import proccessImg from "../assets/process_bg.png"
 
 const STEPS = [
   {
@@ -127,7 +126,7 @@ export function Process() {
         {/* Background */}
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
           <img
-            src={proccessImg}
+            src="assets/process_bg.png"
             alt=""
             aria-hidden="true"
             style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}

@@ -1,5 +1,5 @@
+"use client";
 import { motion } from "framer-motion";
-import tercumanImg from "../assets/tercuman.png";
 
 const properties = [
   { value: "Yeminli Tercüme", label: "Mahkeme ve noter için onaylı" },
@@ -208,7 +208,7 @@ export function TercumanLanding() {
               style={{ background: "#1a1a1a", position: "relative" }}
             >
               <img
-                src={tercumanImg}
+                src="assets/tercuman.png"
                 alt="Yeminli Tercüman"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
               />
@@ -338,7 +338,7 @@ export function TercumanLanding() {
           >
             <div className="flex-1 relative overflow-hidden">
               <img
-                src={tercumanImg}
+                src="assets/tercuman.png"
                 alt="Yeminli Tercüman"
                 className="w-full h-full object-cover object-top"
               />

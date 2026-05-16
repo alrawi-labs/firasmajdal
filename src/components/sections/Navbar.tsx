@@ -1,8 +1,10 @@
+"use client";
+
+
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "../assets/firas_logo_just.png"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +39,7 @@ export function Navbar() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <a href="#" className="flex items-center gap-3">
-              <img src={logo} alt="Firas Real Estate" className="h-15 w-auto object-contain" />
+              <img src="assets/firas_logo_just.png" alt="Firas Real Estate" className="h-15 w-auto object-contain" />
               <div className="flex flex-col">
                 <span className={`font-serif text-2xl tracking-widest font-bold ${isScrolled ? "text-primary" : "text-primary"}`}>
                   FİRAS

@@ -1,7 +1,6 @@
+"use client";
 import { motion } from "framer-motion";
-import gayrimankullerImg from "../assets/gayrimankuller.png";
-import aboutImg from "../assets/about.png";
-import soovImg from "../assets/soov.png";
+
 
 const stats = [
     { value: "500+", label: "Tamamlanan Satış" },
@@ -205,7 +204,7 @@ export function RealEstateSection() {
                                 style={{ borderRadius: "inherit", overflow: "hidden" }}
                             >
                                 <img
-                                    src={soovImg}
+                                    src="assets/soov.png"
                                     alt="About Fotoğrafı"
                                     className="w-full h-full object-cover object-top"
                                 />
@@ -252,7 +251,7 @@ export function RealEstateSection() {
                     `}</style>
                     <div className="gay-photo" style={{ overflow: "hidden", borderRadius: "16px" }}>
                         <img
-                            src={gayrimankullerImg}
+                            src="assets/gayrimankuller.png"
                             alt="Gayrimenkul Danışmanı"
                             className="w-full h-full object-cover object-top"
                         />

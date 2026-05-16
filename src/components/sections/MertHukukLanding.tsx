@@ -1,6 +1,5 @@
+"use client";
 import { motion } from "framer-motion";
-import danismanImg from "../assets/danisman.png";
-
 
 
 export function MertHukukLanding() {
@@ -87,7 +86,7 @@ export function MertHukukLanding() {
           className="relative overflow-hidden"
         >
           <img
-            src={danismanImg}
+            src="assets/danisman.png"
             alt="Hukuk Danışmanı"
             className="w-full h-full object-cover object-top"
           />

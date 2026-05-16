@@ -1,5 +1,6 @@
+"use client";
+
 import { motion } from "framer-motion";
-import aboutImg from "../assets/about.png";
 
 export function About() {
   return (
@@ -34,7 +35,7 @@ export function About() {
           }}
         >
           <img
-            src={aboutImg}
+            src="assets/about.png"
             alt="Hakkımızda"
             style={{
               width: "100%",

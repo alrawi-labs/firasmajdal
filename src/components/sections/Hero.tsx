@@ -1,5 +1,6 @@
+"use client";
+
 import { motion } from "framer-motion";
-import heroImg from "../assets/hero_bg.png";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -9,7 +10,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-transparent z-10" />
         <img
-          src={heroImg}
+          src="assets/hero_bg.png"
           alt="Luxury Istanbul Bosphorus View"
           className="w-full h-full object-cover ken-burns"
         />

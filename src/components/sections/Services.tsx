@@ -2,7 +2,6 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import bgImg from "../assets/hukuk_bg.png"
 
 const services = [
   {
@@ -124,7 +123,7 @@ export function Services() {
         {/* Background */}
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
           <img
-            src={bgImg}
+            src="assets/hukuk_bg.png"
             alt=""
             aria-hidden="true"
             style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}

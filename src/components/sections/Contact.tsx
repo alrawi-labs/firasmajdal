@@ -1,10 +1,9 @@
+"use client";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Shield, Handshake, Clock, ArrowRight } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import contactImg from "../assets/contact_bg.png";
-import logo from "../assets/firas_logo.png";
 
 const schema = z.object({
   fullName: z.string().min(2),
@@ -160,7 +159,7 @@ export function Contact() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url("${contactImg}")`,
+            backgroundImage: "url(assets/contact_bg.png)",
             backgroundSize: "cover",
             backgroundPosition: "center right",
             backgroundRepeat: "no-repeat",
@@ -315,7 +314,7 @@ export function Contact() {
               >
                 {/* Logo */}
                 <div className="flex justify-center mb-8">
-                  <img src={logo} alt="Firas Real Estate" className="w-[150px] h-auto object-contain" />
+                  <img src="assets/firas_logo.png" alt="Firas Real Estate" className="w-[150px] h-auto object-contain" />
                 </div>
 
                 {/* Form */}
