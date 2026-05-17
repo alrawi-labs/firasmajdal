@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "law": "Hukuk",
+    "estates": "Gayrimenkuller",
+    "translator": "Tercüman",
+    "contact": "İletişim",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+  "default": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum."
+},
+  "hero": {
+    "badge": "Güven - Deneyim - Başarı",
+    "title1": "Profesyonel Gayrimenkul",
+    "title2": "Yeminli Tercüman",
+    "title3": "ve Hukuki Danışmanlık",
+    "desc": "Türkiye'nin en prestijli lokasyonlarında lüks emlak yatırımlarınız, hukuki süreçleriniz ve Arapça-Türkçe yeminli tercümanlık hizmetleriniz için kişiselleştirilmiş, üst düzey danışmanlık hizmeti.",
+    "cta1": "İletişime Geçin",
+    "cta2": "Hizmetlerimizi Keşfet"
+  },
+  "about": {
+    "badge": "Hakkımızda",
+    "title": "Güven ve Uzmanlıkla",
+    "titleHighlight": "Yanınızdayız",
+    "p1": "Yılların deneyimi ve derin sektör bilgisiyle, müvekkillerimize gayrimenkul yatırımlarında en doğru kararları almalarında rehberlik ediyoruz.",
+    "p2": "Türkiye'nin prestijli lokasyonlarında uzmanlaştığımız hukuki danışmanlık ve tercümanlık hizmetleriyle, her adımda güvenilir bir iş ortağı olarak yanınızdayız."
+  },
+  "map": {
+    "badge": "HİZMET KAPSAMIMIZ",
+    "title": "Türkiye'nin 81 İlinde",
+    "titleHighlight": "Yanınızdayız",
+    "desc": "Gayrimenkul, hukuki danışmanlık ve Arapça-Türkçe yeminli tercümanlık hizmetlerimiz tüm Türkiye'de geçerlidir.",
+    "loading": "Harita yükleniyor…",
+    "error": "Harita yüklenemedi. Sayfayı yenileyin.",
+    "ariaLabel": "Türkiye İl Haritası",
+    "whatsappMessage": "Merhaba, {city} ilinde hizmetleriniz hakkında bilgi almak istiyorum.",
+    "hint": "İlgilendiğiniz bölgeye tıklayın"
+  },
+  "law": {
+    "badge": "Profesyonel Danışmanlık",
+    "title": "Hukuki Danışmanlık Hizmetleri",
+    "desc": "Müvekkillerimize en iyi hukuki çözümleri sunmak için uzmanlığımızı ve tecrübemizi bir araya getiriyoruz.",
+    "cta1": "Randevu Al",
+    "cta2": "Hizmetleri İncele",
+    "trustLabel": "Güven & Deneyim",
+    "trustDesc": "Yılların tecrübesi ile yanınızdayız.",
+    "whatsapp1": "Merhaba, hukuki danışmanlık için randevu almak istiyorum.",
+    "whatsapp2": "Merhaba, hukuki danışmanlık hizmetleriniz hakkında bilgi almak istiyorum.",
+    "imgAlt": "Hukuk Danışmanı"
+  },
+  "services": {
+    "badge": "Hizmetlerimiz",
+    "title": "Size Özel",
+    "titleHighlight": "Çözümler",
+    "items": [
+      {
+        "title": "Gayrimenkul Hukuku",
+        "description": "Gayrimenkul alım-satım, kiralama ve diğer işlemlerinizde hukuki destek sağlıyoruz."
+      },
+      {
+        "title": "Yatırım Danışmanlığı",
+        "description": "Yurt içi ve yurt dışı yatırımlarınız için hukuki danışmanlık hizmetleri sunuyoruz."
+      },
+      {
+        "title": "İkamet İzni İşlemleri",
+        "description": "Oturma izni süreçlerinizde profesyonel destek ile işlemlerinizin takibini gerçekleştiriyoruz."
+      },
+      {
+        "title": "Ticaret Hukuku",
+        "description": "Şirket kuruluşu, sözleşmeler ve ticari uyuşmazlıklarda yanınızda oluyoruz."
+      }
+    ]
+  },
+  "estates": {
+    "badge": "Gayrimenkul Danışmanlığı",
+    "title": "Hayalinizdeki\nMülkü Birlikte\nBuluyoruz",
+    "desc": "Lüks konut ve ticari gayrimenkul yatırımlarınızda değerleme, portföy yönetimi ve satın alma süreçlerinde profesyonel rehberlik.",
+    "cta1": "İletişime Geç",
+    "cta2": "Tüm İlanlar",
+    "whatsapp1": "Merhaba, gayrimenkul danışmanlığı hakkında bilgi almak istiyorum.",
+    "whatsapp2": "Merhaba, gayrimenkul ilanlarınızı görmek istiyorum.",
+    "quote": "Hayalinizdeki mülkü birlikte buluyoruz.",
+    "quoteDesc": "Portföyümüzü keşfetmek için iletişime geçin.",
+    "imgAlt": "About Fotoğrafı",
+    "imgAlt2": "Gayrimenkul Danışmanı",
+    "features": [
+      {
+        "title": "Geniş Portföy",
+        "desc": "Yüzlerce seçenek arasından size özel mülk."
+      },
+      {
+        "title": "Güvenli Süreç",
+        "desc": "Satın alma süreçlerinde hukuki güvence."
+      }
+    ],
+    "listings": [
+      {
+        "title": "Değerleme",
+        "desc": "Profesyonel piyasa analizi"
+      },
+      {
+        "title": "Portföy Yönetimi",
+        "desc": "Size özel mülk seçenekleri"
+      },
+      {
+        "title": "Hukuki Danışmanlık",
+        "desc": "Güvenli satın alma süreci"
+      },
+      {
+        "title": "Yatırım Analizi",
+        "desc": "Karlı fırsatları birlikte keşfedin"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Tamamlanan Satış"
+      },
+      {
+        "value": "7+",
+        "label": "Yıllık Deneyim"
+      },
+      {
+        "value": "95%",
+        "label": "Müşteri Memnuniyeti"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Nasıl Çalışıyoruz?",
+    "title": "Çalışma",
+    "titleHighlight": "Sürecimiz",
+    "steps": [
+      {
+        "id": "01",
+        "title": "İhtiyaç Analizi",
+        "description": "Yatırım hedeflerinizi, bütçenizi ve özel taleplerinizi detaylı olarak analiz ediyoruz."
+      },
+      {
+        "id": "02",
+        "title": "Strateji Oluşturma",
+        "description": "Size en uygun gayrimenkul portföyünü veya hukuki çözüm haritasını çıkarıyoruz."
+      },
+      {
+        "id": "03",
+        "title": "Uygulama",
+        "description": "Satın alma, kiralama veya hukuki süreçleri profesyonel ekibimizle yönetiyoruz."
+      },
+      {
+        "id": "04",
+        "title": "Sonuç ve Destek",
+        "description": "İşlem sonrasında da mutlak müşteri memnuniyeti için yanınızda olmaya devam ediyoruz."
+      }
+    ]
+  },
+  "translator": {
+    "badge": "Yeminli Tercüme Hizmeti",
+    "langs": "عربي · تركي",
+    "title1": "Arapça –",
+    "title2": "Türkçe",
+    "title3": "Yeminli",
+    "title4": "Tercümanlık",
+    "desc": "Resmi belgeleriniz, mahkeme süreçleriniz ve uluslararası işlemleriniz için noter onaylı, hukuki geçerliliği yüksek tercüme hizmeti.",
+    "trust": [
+      "Noter Onaylı",
+      "Resmi Kurum Geçerli",
+      "Gizlilik Garantili"
+    ],
+    "cta1": "Tercüme Talep Et",
+    "cta2": "Hizmetleri Gör",
+    "whatsapp1": "Merhaba, Arapça-Türkçe yeminli tercüme hizmeti talep etmek istiyorum.",
+    "whatsapp2": "Merhaba, Arapça-Türkçe yeminli tercüme hizmetlerinizi görmek istiyorum.",
+    "quote": "Kelimeler köprü kurar, biz o köprüyü doğru inşa ediyoruz.",
+    "delivery": "Belgenizi gönderin — 48 saatte teslim",
+    "imgAlt": "Yeminli Tercüman",
+    "properties": [
+      {
+        "value": "Yeminli Tercüme",
+        "label": "Mahkeme ve noter için onaylı"
+      },
+      {
+        "value": "Belge Tercümesi",
+        "label": "Pasaport, diploma, sözleşme"
+      },
+      {
+        "value": "Apostil İşlemleri",
+        "label": "Uluslararası belge onayı"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "İLETİŞİME GEÇİN",
+    "heading": "Hayalinizdeki Hizmetler İçin\nBizimle İletişime Geçin",
+    "desc": "Prestige Real Estate olarak, yatırım hedeflerinize ulaşmanız için profesyonel danışmanlık ve güvenilir çözümler sunuyoruz.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "trust": [
+      {
+        "label": "GÜVENLİ HİZMET",
+        "desc": "Tüm süreçlerinizde yanınızdayız."
+      },
+      {
+        "label": "UZMAN DANIŞMANLIK",
+        "desc": "Deneyimli ekibimizle en doğru çözümler."
+      },
+      {
+        "label": "HIZLI DÖNÜŞ",
+        "desc": "Sorularınıza en kısa sürede yanıt veriyoruz."
+      }
+    ],
+    "form": {
+      "nameLabel": "AD SOYAD",
+      "namePlaceholder": "Adınız ve Soyadınız",
+      "messageLabel": "MESAJ",
+      "messagePlaceholder": "Mesajınızı yazınız...",
+      "submit": "DANIŞMANLIK AL",
+      "privacy": "Bilgileriniz gizli ve güvenlidir.",
+      "whatsappMessage": "Merhaba, danışmanlık talebi:\n\nAd Soyad: {name}\nMesaj: {message}"
+    }
+  },
+  "footer": {
+    "tagline": "Lüks gayrimenkul yatırımları, hukuki danışmanlık ve Arapça-Türkçe yeminli tercümanlıkta güvenin adresi. İstanbul'un prestijli projelerinde ayrıcalıklı hizmet.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "quickLinksTitle": "Hızlı Linkler",
+    "servicesTitle": "Hizmetlerimiz",
+    "copyright": "© {year} Firas Real Estate. Tüm hakları saklıdır.",
+    "navLinks": [
+      {
+        "label": "Anasayfa",
+        "href": "#hero"
+      },
+      {
+        "label": "Hakkımızda",
+        "href": "#about"
+      },
+      {
+        "label": "Hukuk",
+        "href": "#law"
+      },
+      {
+        "label": "Gayrimenkuller",
+        "href": "#estates"
+      },
+      {
+        "label": "Tercüman",
+        "href": "#translator"
+      },
+      {
+        "label": "İletişim",
+        "href": "#contact"
+      }
+    ],
+    "services": [
+      {
+        "label": "Gayrimenkul Hukuku",
+        "href": "#law"
+      },
+      {
+        "label": "Yatırım Danışmanlığı",
+        "href": "#law"
+      },
+      {
+        "label": "İkamet İzni İşlemleri",
+        "href": "#law"
+      },
+      {
+        "label": "Ticaret Hukuku",
+        "href": "#law"
+      },
+      {
+        "label": "Portföy Yönetimi",
+        "href": "#estates"
+      },
+      {
+        "label": "Arapça-Türkçe Yeminli Tercümanlık",
+        "href": "#translator"
+      }
+    ]
+  }
+}

@@ -1,120 +1,155 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
+import { useTranslations } from "next-intl";
+import ParallaxLayer from "@/components/scroll-system/components/ParallaxLayer";
+
+// ─── Easing & Variants ───────────────────────────────────────────────────────
+
+const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
+const imageVariants: Variants = {
+  hidden: { opacity: 0, x: -32, scale: 0.97 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    transition: { duration: 1, ease: EASE_OUT },
+  },
+};
+
+const contentVariants: Variants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.12, delayChildren: 0.2 },
+  },
+};
+
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: EASE_OUT },
+  },
+};
+
+const lineVariants: Variants = {
+  hidden: { scaleX: 0, originX: 0 },
+  visible: {
+    scaleX: 1,
+    transition: { duration: 0.6, ease: EASE_OUT, delay: 0.3 },
+  },
+};
+
+const dividerVariants: Variants = {
+  hidden: { scaleX: 0, originX: 0 },
+  visible: {
+    scaleX: 1,
+    transition: { duration: 0.8, ease: EASE_OUT },
+  },
+};
+
+// ─── Component ───────────────────────────────────────────────────────────────
 
 export function About() {
+  const t = useTranslations("about");
+
   return (
     <section
       id="about"
-      className="bg-[#F0EDE8] scroll-mt-20"
+      className="scroll-mt-20 relative overflow-hidden"
       style={{
-        padding: "clamp(48px, 12vh, 120px) clamp(16px, 5vw, 72px)",
+        background: "linear-gradient(160deg, #F8F5F0 0%, #EDE9E2 100%)",
+        padding: "clamp(72px, 12vh, 128px) clamp(16px, 5vw, 72px)",
       }}
     >
+      {/* Dekoratif arka plan dokusu */}
       <div
-        className="grid md:grid-cols-2"
+        className="absolute inset-0 pointer-events-none opacity-[0.03]"
         style={{
-          gap: "clamp(24px, 5vw, 64px)",
-          alignItems: "center",
-          maxWidth: "1300px",
-          margin: "0 auto",
+          backgroundImage:
+            "repeating-linear-gradient(0deg, #1a1612 0px, transparent 1px, transparent 60px, #1a1612 60px), repeating-linear-gradient(90deg, #1a1612 0px, transparent 1px, transparent 60px, #1a1612 60px)",
         }}
+      />
+
+      <div
+        className="relative grid md:grid-cols-2 items-center mx-auto"
+        style={{ gap: "clamp(32px, 5vw, 72px)", maxWidth: "1300px" }}
       >
-        {/* Sol — Fotoğraf */}
+        {/* ── Sol — Fotoğraf — parallax hover ile birleşik ─────────────── */}
         <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] }}
-          style={{
-            position: "relative",
-            borderRadius: "15px",
-            overflow: "hidden",
-            aspectRatio: "3/2",
-            width: "100%",
-          }}
+          variants={imageVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          className="relative rounded-2xl overflow-hidden shadow-[0_24px_64px_rgba(0,0,0,0.14)]"
+          style={{ aspectRatio: "3/2", width: "100%" }}
+          whileHover={{ scale: 1.015 }}
+          transition={{ type: "spring", stiffness: 200, damping: 28 }}
         >
           <img
             src="assets/about.png"
-            alt="Hakkımızda"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "center",
-              display: "block",
-            }}
+            alt={t("badge")}
+            className="w-full h-full object-cover object-center block"
           />
+          {/* Fotoğraf üzeri ince altın çerçeve efekti */}
+          <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-[#C9A84C]/20 pointer-events-none" />
         </motion.div>
 
-        {/* Sağ — Metin */}
+        {/* ── Sağ — Metin ────────────────────────────────────────────────── */}
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.1 }}
+          variants={contentVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
         >
-          {/* Üst etiket */}
-          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
-            <span
-              style={{
-                color: "#C9A84C",
-                fontSize: "12px",
-                fontWeight: 600,
-                letterSpacing: "0.22em",
-                textTransform: "uppercase",
-                fontFamily: "sans-serif",
-              }}
-            >
-              Hakkımızda
+          {/* Badge */}
+          <motion.div
+            variants={itemVariants}
+            className="flex items-center gap-3 mb-5"
+          >
+            <span className="text-[#C9A84C] text-xs font-semibold tracking-[0.22em] uppercase">
+              {t("badge")}
             </span>
-            <span style={{ display: "block", height: "1px", width: "48px", background: "#C9A84C" }} />
-          </div>
+            <motion.span
+              variants={lineVariants}
+              className="block h-px w-12 bg-[#C9A84C]"
+            />
+          </motion.div>
 
           {/* Başlık */}
-          <h2
-            style={{
-              fontSize: "clamp(1.8rem, 4vw, 3rem)",
-              fontWeight: 300,
-              color: "#1a1612",
-              lineHeight: 1.15,
-              margin: "0 0 20px",
-              letterSpacing: "-0.01em",
-            }}
+          <motion.h2
+            variants={itemVariants}
+            className="font-serif font-light text-[#1a1612] leading-[1.15] tracking-[-0.01em] mb-5"
+            style={{ fontSize: "clamp(1.8rem, 4vw, 3rem)" }}
           >
-            Güven ve Uzmanlıkla<br />
-            <em style={{ fontStyle: "italic", color: "#C9A84C" }}>Yanınızdayız</em>
-          </h2>
+            {t("title")}
+            <br />
+            <em className="italic text-[#C9A84C]">{t("titleHighlight")}</em>
+          </motion.h2>
 
           {/* Ayraç */}
-          <div style={{ height: "1px", background: "rgba(0,0,0,0.1)", margin: "24px 0" }} />
+          <motion.div
+            variants={dividerVariants}
+            className="h-px bg-black/10 my-6"
+          />
 
           {/* Paragraflar */}
-          <p
-            style={{
-              color: "#6b6258",
-              fontSize: "clamp(15px, 1.8vh, 18px)",
-              lineHeight: 1.8,
-              fontWeight: 300,
-              margin: "0 0 16px",
-            }}
+          <motion.p
+            variants={itemVariants}
+            className="text-[#6b6258] leading-[1.85] font-light mb-4"
+            style={{ fontSize: "clamp(15px, 1.8vh, 18px)" }}
           >
-            Yılların deneyimi ve derin sektör bilgisiyle, müvekkillerimize gayrimenkul
-            yatırımlarında en doğru kararları almalarında rehberlik ediyoruz.
-          </p>
-
-          <p
-            style={{
-              color: "#6b6258",
-              fontSize: "clamp(15px, 1.8vh, 18px)",
-              lineHeight: 1.8,
-              fontWeight: 300,
-              margin: 0,
-            }}
+            {t("p1")}
+          </motion.p>
+          <motion.p
+            variants={itemVariants}
+            className="text-[#6b6258] leading-[1.85] font-light"
+            style={{ fontSize: "clamp(15px, 1.8vh, 18px)" }}
           >
-            Türkiye'nin prestijli lokasyonlarında uzmanlaştığımız hukuki danışmanlık ve
-            tercümanlık hizmetleriyle, her adımda güvenilir bir iş ortağı olarak yanınızdayız.
-          </p>
+            {t("p2")}
+          </motion.p>
         </motion.div>
       </div>
     </section>

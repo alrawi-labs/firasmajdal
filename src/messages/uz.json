@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqida",
+    "law": "Huquqiy xizmatlar",
+    "estates": "Ko'chmas mulk",
+    "translator": "Tarjimon",
+    "contact": "Bog'lanish",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "default": "Salom, xizmatlaringiz haqida ma'lumot olmoqchiman."
+  },
+  "hero": {
+    "badge": "Ishonch · Tajriba · Muvaffaqiyat",
+    "title1": "Professional Ko'chmas Mulk",
+    "title2": "Qasamyod Tarjimon",
+    "title3": "va Huquqiy Maslahat",
+    "desc": "Turkiyaning eng nufuzli manzillarida hashamatli mulk investitsiyalari, huquqiy jarayonlar va arab-turk qasamyod tarjima xizmatlari uchun shaxsiylashtirilgan, yuqori darajadagi maslahat.",
+    "cta1": "Biz bilan bog'laning",
+    "cta2": "Xizmatlarimizni kashf eting"
+  },
+  "about": {
+    "badge": "Biz haqida",
+    "title": "Ishonch va mutaxassislik bilan",
+    "titleHighlight": "yoningizda",
+    "p1": "Ko'p yillik tajriba va chuqur soha bilimlari bilan mijozlarimizga ko'chmas mulk investitsiyalarida to'g'ri qarorlar qabul qilishda yo'l ko'rsatamiz.",
+    "p2": "Turkiyaning nufuzli manzillarida ixtisoslashgan huquqiy maslahat va tarjima xizmatlarimiz bilan har bir qadamda ishonchli ish hamkoringiz sifatida yoningizda bo'lamiz."
+  },
+  "map": {
+    "badge": "XIZMAT DOIRAMIZ",
+    "title": "Turkiyaning 81 viloyatida",
+    "titleHighlight": "xizmatingizdamiz",
+    "desc": "Ko'chmas mulk, huquqiy maslahat va arab-turk qasamyod tarjima xizmatlarimiz butun Turkiya bo'ylab amal qiladi.",
+    "loading": "Xarita yuklanmoqda…",
+    "error": "Xarita yuklanmadi. Sahifani yangilang.",
+    "ariaLabel": "Turkiya viloyatlari xaritasi",
+    "whatsappMessage": "Salom, {city} viloyatida xizmatlaringiz haqida ma'lumot olmoqchiman.",
+    "hint": "Qiziqtirgan hududingizga bosing"
+  },
+  "law": {
+    "badge": "Professional maslahat",
+    "title": "Huquqiy maslahat xizmatlari",
+    "desc": "Mijozlarimizga eng yaxshi huquqiy yechimlarni taqdim etish uchun mutaxassisligimiz va tajribamizni birlashtirамiz.",
+    "cta1": "Uchrashuv belgilash",
+    "cta2": "Xizmatlarni ko'rish",
+    "trustLabel": "Ishonch va tajriba",
+    "trustDesc": "Ko'p yillik tajriba bilan yoningizda.",
+    "whatsapp1": "Salom, huquqiy maslahat uchun uchrashuv belgilamoqchiman.",
+    "whatsapp2": "Salom, huquqiy maslahat xizmatlaringiz haqida ma'lumot olmoqchiman.",
+    "imgAlt": "Huquqiy maslahatchi"
+  },
+  "services": {
+    "badge": "Xizmatlarimiz",
+    "title": "Siz uchun",
+    "titleHighlight": "maxsus yechimlar",
+    "items": [
+      {
+        "title": "Ko'chmas mulk huquqi",
+        "description": "Ko'chmas mulkni sotib olish, sotish, ijaraga berish va boshqa amaliyotlarda huquqiy yordam ko'rsatamiz."
+      },
+      {
+        "title": "Investitsiya maslahati",
+        "description": "Ichki va xorijiy investitsiyalar uchun huquqiy maslahat xizmatlarini taqdim etamiz."
+      },
+      {
+        "title": "Yashash ruxsati rasmiylashtiruv",
+        "description": "Yashash ruxsatini olish jarayonida professional yordam bilan har bir bosqichni kuzatib boramiz."
+      },
+      {
+        "title": "Tijorat huquqi",
+        "description": "Kompaniya tashkil etish, shartnomalar va tijorat nizolarida yoningizda bo'lamiz."
+      }
+    ]
+  },
+  "estates": {
+    "badge": "Ko'chmas mulk maslahati",
+    "title": "Orzu qilgan mulkingizni\nbirga\ntopamiz",
+    "desc": "Hashamatli turar-joy va tijorat ko'chmas mulk investitsiyalarida baholash, portfelni boshqarish va sotib olish jarayonlarida professional yo'llanma.",
+    "cta1": "Bog'laning",
+    "cta2": "Barcha e'lonlar",
+    "whatsapp1": "Salom, ko'chmas mulk maslahati haqida ma'lumot olmoqchiman.",
+    "whatsapp2": "Salom, mulk e'lonlaringizni ko'rmoqchiman.",
+    "quote": "Orzu qilgan mulkingizni birga topamiz.",
+    "quoteDesc": "Portfelimiz bilan tanishish uchun bog'laning.",
+    "imgAlt": "Rasm",
+    "imgAlt2": "Ko'chmas mulk maslahatchisi",
+    "features": [
+      {
+        "title": "Keng portfel",
+        "desc": "Yuzlab variantlar orasidan siz uchun maxsus mulk."
+      },
+      {
+        "title": "Xavfsiz jarayon",
+        "desc": "Sotib olish jarayonlarida huquqiy kafolat."
+      }
+    ],
+    "listings": [
+      {
+        "title": "Baholash",
+        "desc": "Professional bozor tahlili"
+      },
+      {
+        "title": "Portfelni boshqarish",
+        "desc": "Siz uchun maxsus mulk variantlari"
+      },
+      {
+        "title": "Huquqiy maslahat",
+        "desc": "Xavfsiz sotib olish jarayoni"
+      },
+      {
+        "title": "Investitsiya tahlili",
+        "desc": "Foydali imkoniyatlarni birga kashf eting"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Yakunlangan bitimlar"
+      },
+      {
+        "value": "7+",
+        "label": "Yillik tajriba"
+      },
+      {
+        "value": "95%",
+        "label": "Mijoz mamnuniyati"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Qanday ishlaymiz?",
+    "title": "Ish",
+    "titleHighlight": "jarayonimiz",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Ehtiyojni tahlil qilish",
+        "description": "Investitsiya maqsadlaringiz, byudjetingiz va maxsus talablaringizni batafsil tahlil qilamiz."
+      },
+      {
+        "id": "02",
+        "title": "Strategiya ishlab chiqish",
+        "description": "Siz uchun eng mos ko'chmas mulk portfelini yoki huquqiy yechim xaritasini tuzamiz."
+      },
+      {
+        "id": "03",
+        "title": "Amalga oshirish",
+        "description": "Sotib olish, ijaraga olish yoki huquqiy jarayonlarni professional jamoamiz bilan boshqaramiz."
+      },
+      {
+        "id": "04",
+        "title": "Natija va qo'llab-quvvatlash",
+        "description": "Bitim yakunlangandan so'ng ham to'liq mijoz mamnuniyati uchun yoningizda bo'lishda davom etamiz."
+      }
+    ]
+  },
+  "translator": {
+    "badge": "Qasamyod tarjima xizmati",
+    "langs": "عربي · تركي",
+    "title1": "Arabcha –",
+    "title2": "Turkcha",
+    "title3": "Qasamyod",
+    "title4": "tarjimonlik",
+    "desc": "Rasmiy hujjatlaringiz, sud jarayonlaringiz va xalqaro bitimlar uchun notarial tasdiqlangan, yuqori huquqiy kuchga ega tarjima xizmati.",
+    "trust": [
+      "Notarial tasdiqlangan",
+      "Rasmiy idoralar tomonidan qabul qilinadi",
+      "Maxfiylik kafolatlanadi"
+    ],
+    "cta1": "Tarjima buyurtma qilish",
+    "cta2": "Xizmatlarni ko'rish",
+    "whatsapp1": "Salom, arab-turk qasamyod tarjima xizmatini buyurtma qilmoqchiman.",
+    "whatsapp2": "Salom, arab-turk qasamyod tarjima xizmatlaringiz haqida ma'lumot olmoqchiman.",
+    "quote": "So'zlar ko'prik quradi — biz uni to'g'ri quramiz.",
+    "delivery": "Hujjatingizni yuboring — 48 soatda tayyor",
+    "imgAlt": "Qasamyod tarjimon",
+    "properties": [
+      {
+        "value": "Qasamyod tarjima",
+        "desc": "Sud va notariat uchun tasdiqlangan"
+      },
+      {
+        "value": "Hujjat tarjimasi",
+        "label": "Pasport, diplom, shartnoma"
+      },
+      {
+        "value": "Apostil xizmatlari",
+        "label": "Xalqaro hujjat tasdiqlash"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "BIZ BILAN BOG'LANING",
+    "heading": "Orzu qilgan xizmatlar uchun\nbiz bilan bog'laning",
+    "desc": "Prestige Real Estate sifatida investitsiya maqsadlaringizga erishish uchun professional maslahat va ishonchli yechimlar taqdim etamiz.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "trust": [
+      {
+        "label": "ISHONCHLI XIZMAT",
+        "desc": "Barcha jarayonlarda yoningizda."
+      },
+      {
+        "label": "EKSPERT MASLAHAT",
+        "desc": "Tajribali jamoamiz bilan eng to'g'ri yechimlar."
+      },
+      {
+        "label": "TEZKOR JAVOB",
+        "desc": "Savollaringizga imkon qadar tez javob beramiz."
+      }
+    ],
+    "form": {
+      "nameLabel": "ISM FAMILIYA",
+      "namePlaceholder": "Ism va familiyangiz",
+      "messageLabel": "XABAR",
+      "messagePlaceholder": "Xabaringizni yozing…",
+      "submit": "MASLAHAT OLISH",
+      "privacy": "Ma'lumotlaringiz maxfiy va xavfsiz.",
+      "whatsappMessage": "Salom, maslahat so'rovi:\n\nIsm: {name}\nXabar: {message}"
+    }
+  },
+  "footer": {
+    "tagline": "Hashamatli ko'chmas mulk investitsiyalari, huquqiy maslahat va arab-turk qasamyod tarjimasida ishonch manzili. Istanbulning nufuzli loyihalarida imtiyozli xizmat.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "quickLinksTitle": "Tezkor havolalar",
+    "servicesTitle": "Xizmatlarimiz",
+    "copyright": "© {year} Firas Real Estate. Barcha huquqlar himoyalangan.",
+    "navLinks": [
+      {
+        "label": "Bosh sahifa",
+        "href": "#hero"
+      },
+      {
+        "label": "Biz haqida",
+        "href": "#about"
+      },
+      {
+        "label": "Huquqiy xizmatlar",
+        "href": "#law"
+      },
+      {
+        "label": "Ko'chmas mulk",
+        "href": "#estates"
+      },
+      {
+        "label": "Tarjimon",
+        "href": "#translator"
+      },
+      {
+        "label": "Bog'lanish",
+        "href": "#contact"
+      }
+    ],
+    "services": [
+      {
+        "label": "Ko'chmas mulk huquqi",
+        "href": "#law"
+      },
+      {
+        "label": "Investitsiya maslahati",
+        "href": "#law"
+      },
+      {
+        "label": "Yashash ruxsati rasmiylashtiruv",
+        "href": "#law"
+      },
+      {
+        "label": "Tijorat huquqi",
+        "href": "#law"
+      },
+      {
+        "label": "Portfelni boshqarish",
+        "href": "#estates"
+      },
+      {
+        "label": "Arab-turk qasamyod tarjimonligi",
+        "href": "#translator"
+      }
+    ]
+  }
+}

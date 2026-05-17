@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "law": "Legal",
+    "estates": "Properties",
+    "translator": "Translator",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "default": "Hello, I would like to get information about your services."
+  },
+  "hero": {
+    "badge": "Trust - Experience - Excellence",
+    "title1": "Professional Real Estate",
+    "title2": "Certified Translator",
+    "title3": "& Legal Consultancy",
+    "desc": "Personalized, premium consultancy for luxury real estate investments, legal processes, and certified Arabic-Turkish translation services in Turkey's most prestigious locations.",
+    "cta1": "Get in Touch",
+    "cta2": "Explore Our Services"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "With Trust and Expertise,",
+    "titleHighlight": "We Stand by Your Side",
+    "p1": "With years of experience and deep industry knowledge, we guide our clients in making the right decisions for their real estate investments.",
+    "p2": "Specializing in Turkey's most prestigious locations, we offer legal consultancy and translation services — serving as a reliable partner at every step of your journey."
+  },
+  "map": {
+    "badge": "OUR SERVICE AREA",
+    "title": "Across All 81 Provinces",
+    "titleHighlight": "of Turkey",
+    "desc": "Our real estate, legal consultancy, and certified Arabic-Turkish translation services are available throughout Turkey.",
+    "loading": "Loading map…",
+    "error": "Map could not be loaded. Please refresh the page.",
+    "ariaLabel": "Turkey Province Map",
+    "whatsappMessage": "Hello, I would like to get information about your services in {city}.",
+    "hint": "Click on the region you are interested in"
+  },
+  "law": {
+    "badge": "Professional Consultancy",
+    "title": "Legal Consultancy Services",
+    "desc": "We combine our expertise and experience to provide our clients with the best legal solutions.",
+    "cta1": "Book an Appointment",
+    "cta2": "Explore Services",
+    "trustLabel": "Trust & Experience",
+    "trustDesc": "Years of expertise standing by your side.",
+    "whatsapp1": "Hello, I would like to book an appointment for legal consultancy.",
+    "whatsapp2": "Hello, I would like to get information about your legal consultancy services.",
+    "imgAlt": "Legal Consultant"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Tailored",
+    "titleHighlight": "Solutions for You",
+    "items": [
+      {
+        "title": "Real Estate Law",
+        "description": "We provide legal support for property purchases, sales, rentals, and all related transactions."
+      },
+      {
+        "title": "Investment Consultancy",
+        "description": "We offer legal advisory services for your domestic and international investment decisions."
+      },
+      {
+        "title": "Residence Permit Procedures",
+        "description": "We provide professional support and follow-up throughout your residence permit application process."
+      },
+      {
+        "title": "Commercial Law",
+        "description": "We stand by you in company incorporation, contracts, and commercial dispute resolution."
+      }
+    ]
+  },
+  "estates": {
+    "badge": "Real Estate Consultancy",
+    "title": "Finding Your Dream\nProperty\nTogether",
+    "desc": "Professional guidance in valuation, portfolio management, and acquisition processes for luxury residential and commercial real estate investments.",
+    "cta1": "Get in Touch",
+    "cta2": "View All Listings",
+    "whatsapp1": "Hello, I would like to get information about real estate consultancy.",
+    "whatsapp2": "Hello, I would like to browse your property listings.",
+    "quote": "Finding your dream property, together.",
+    "quoteDesc": "Get in touch to explore our portfolio.",
+    "imgAlt": "About Photo",
+    "imgAlt2": "Real Estate Consultant",
+    "features": [
+      {
+        "title": "Extensive Portfolio",
+        "desc": "Hundreds of options tailored specifically to you."
+      },
+      {
+        "title": "Secure Process",
+        "desc": "Legal assurance throughout the purchasing process."
+      }
+    ],
+    "listings": [
+      {
+        "title": "Valuation",
+        "desc": "Professional market analysis"
+      },
+      {
+        "title": "Portfolio Management",
+        "desc": "Curated property options for you"
+      },
+      {
+        "title": "Legal Consultancy",
+        "desc": "Secure purchasing process"
+      },
+      {
+        "title": "Investment Analysis",
+        "desc": "Discover profitable opportunities together"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Completed Sales"
+      },
+      {
+        "value": "7+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "95%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our",
+    "titleHighlight": "Process",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Needs Assessment",
+        "description": "We conduct a detailed analysis of your investment goals, budget, and specific requirements."
+      },
+      {
+        "id": "02",
+        "title": "Strategy Development",
+        "description": "We identify the most suitable real estate portfolio or legal solution roadmap tailored to your needs."
+      },
+      {
+        "id": "03",
+        "title": "Execution",
+        "description": "We manage the purchase, rental, or legal processes with our professional team."
+      },
+      {
+        "id": "04",
+        "title": "Results & Ongoing Support",
+        "description": "We continue to stand by you even after the transaction is complete, ensuring absolute client satisfaction."
+      }
+    ]
+  },
+  "translator": {
+    "badge": "Certified Translation Services",
+    "langs": "عربي · تركي",
+    "title1": "Arabic –",
+    "title2": "Turkish",
+    "title3": "Certified",
+    "title4": "Translation",
+    "desc": "Notarized, legally valid translation services for your official documents, court proceedings, and international transactions.",
+    "trust": [
+      "Notary Certified",
+      "Officially Recognized",
+      "Confidentiality Guaranteed"
+    ],
+    "cta1": "Request Translation",
+    "cta2": "View Services",
+    "whatsapp1": "Hello, I would like to request a certified Arabic-Turkish translation service.",
+    "whatsapp2": "Hello, I would like to learn more about your certified Arabic-Turkish translation services.",
+    "quote": "Words build bridges — we build them right.",
+    "delivery": "Send your document — delivered within 48 hours",
+    "imgAlt": "Certified Translator",
+    "properties": [
+      {
+        "value": "Sworn Translation",
+        "label": "Certified for court and notary use"
+      },
+      {
+        "value": "Document Translation",
+        "label": "Passport, diploma, contracts"
+      },
+      {
+        "value": "Apostille Services",
+        "label": "International document certification"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "GET IN TOUCH",
+    "heading": "Contact Us for the\nServices You Deserve",
+    "desc": "At Firas Real Estate, we provide professional consultancy and reliable solutions to help you achieve your investment goals.",
+    "phoneLabel": "PHONE",
+    "phoneValue": "+90 542 766 61 90",
+    "trust": [
+      {
+        "label": "TRUSTED SERVICE",
+        "desc": "We are with you throughout every process."
+      },
+      {
+        "label": "EXPERT CONSULTANCY",
+        "desc": "The best solutions with our experienced team."
+      },
+      {
+        "label": "FAST RESPONSE",
+        "desc": "We respond to your inquiries as quickly as possible."
+      }
+    ],
+    "form": {
+      "nameLabel": "FULL NAME",
+      "namePlaceholder": "Your Full Name",
+      "messageLabel": "MESSAGE",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "GET CONSULTANCY",
+      "privacy": "Your information is private and secure.",
+      "whatsappMessage": "Hello, consultancy request:\n\nFull Name: {name}\nMessage: {message}"
+    }
+  },
+  "footer": {
+    "tagline": "Your trusted address for luxury real estate investments, legal consultancy, and certified Arabic-Turkish translation. Exclusive services in Istanbul's most prestigious projects.",
+    "phoneLabel": "PHONE",
+    "phoneValue": "+90 542 766 61 90",
+    "quickLinksTitle": "Quick Links",
+    "servicesTitle": "Our Services",
+    "copyright": "© {year} Firas Real Estate. All rights reserved.",
+    "navLinks": [
+      { "label": "Home",        "href": "#hero"       },
+      { "label": "About",       "href": "#about"      },
+      { "label": "Legal",       "href": "#law"        },
+      { "label": "Properties",  "href": "#estates"    },
+      { "label": "Translator",  "href": "#translator" },
+      { "label": "Contact",     "href": "#contact"    }
+    ],
+    "services": [
+      { "label": "Real Estate Law",               "href": "#law"        },
+      { "label": "Investment Consultancy",         "href": "#law"        },
+      { "label": "Residence Permit Procedures",    "href": "#law"        },
+      { "label": "Commercial Law",                 "href": "#law"        },
+      { "label": "Portfolio Management",           "href": "#estates"    },
+      { "label": "Certified Arabic-Turkish Translation", "href": "#translator" }
+    ]
+  }
+}

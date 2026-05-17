@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "law": "Rechtsberatung",
+    "estates": "Immobilien",
+    "translator": "Übersetzer",
+    "contact": "Kontakt",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "default": "Guten Tag, ich würde gerne mehr über Ihre Dienstleistungen erfahren."
+  },
+  "hero": {
+    "badge": "Vertrauen · Erfahrung · Erfolg",
+    "title1": "Professionelle Immobilienberatung",
+    "title2": "Beeidigter Übersetzer",
+    "title3": "und Rechtsberatung",
+    "desc": "Maßgeschneiderte Beratung auf höchstem Niveau — für Luxusimmobilieninvestitionen, rechtliche Prozesse und beeidigte Arabisch-Türkisch-Übersetzungen in den prestigeträchtigsten Lagen der Türkei.",
+    "cta1": "Kontakt aufnehmen",
+    "cta2": "Unsere Leistungen entdecken"
+  },
+  "about": {
+    "badge": "Über uns",
+    "title": "Mit Vertrauen und Expertise",
+    "titleHighlight": "an Ihrer Seite",
+    "p1": "Mit jahrelanger Erfahrung und tiefem Branchenwissen begleiten wir unsere Mandanten dabei, die richtigen Entscheidungen bei Immobilieninvestitionen zu treffen.",
+    "p2": "Spezialisiert auf die renommiertesten Lagen der Türkei, stehen wir Ihnen mit Rechtsberatung und Übersetzungsdienstleistungen als zuverlässiger Partner auf jedem Schritt des Weges zur Seite."
+  },
+  "map": {
+    "badge": "UNSER SERVICEGEBIET",
+    "title": "In allen 81 Provinzen der Türkei",
+    "titleHighlight": "für Sie da",
+    "desc": "Unsere Dienstleistungen in den Bereichen Immobilien, Rechtsberatung und beeidigte Arabisch-Türkisch-Übersetzung gelten in der gesamten Türkei.",
+    "loading": "Karte wird geladen…",
+    "error": "Karte konnte nicht geladen werden. Bitte Seite neu laden.",
+    "ariaLabel": "Karte der türkischen Provinzen",
+    "whatsappMessage": "Guten Tag, ich würde gerne mehr über Ihre Dienstleistungen in der Provinz {city} erfahren.",
+    "hint": "Klicken Sie auf die gewünschte Region"
+  },
+  "law": {
+    "badge": "Professionelle Beratung",
+    "title": "Rechtsberatungsdienstleistungen",
+    "desc": "Wir bündeln unser Fachwissen und unsere Erfahrung, um unseren Mandanten die bestmöglichen rechtlichen Lösungen anzubieten.",
+    "cta1": "Termin vereinbaren",
+    "cta2": "Leistungen ansehen",
+    "trustLabel": "Vertrauen & Erfahrung",
+    "trustDesc": "Seit Jahren verlässlich an Ihrer Seite.",
+    "whatsapp1": "Guten Tag, ich würde gerne einen Termin für eine Rechtsberatung vereinbaren.",
+    "whatsapp2": "Guten Tag, ich würde gerne mehr über Ihre Rechtsberatungsleistungen erfahren.",
+    "imgAlt": "Rechtsberater"
+  },
+  "services": {
+    "badge": "Unsere Leistungen",
+    "title": "Lösungen,",
+    "titleHighlight": "die zu Ihnen passen",
+    "items": [
+      {
+        "title": "Immobilienrecht",
+        "description": "Rechtliche Begleitung bei Kauf, Verkauf, Vermietung und sonstigen Immobilientransaktionen."
+      },
+      {
+        "title": "Investitionsberatung",
+        "description": "Rechtsberatung für in- und ausländische Investitionen."
+      },
+      {
+        "title": "Aufenthaltserlaubnis",
+        "description": "Professionelle Betreuung und Begleitung bei allen Schritten des Aufenthaltserlaubnisverfahrens."
+      },
+      {
+        "title": "Handelsrecht",
+        "description": "Unterstützung bei Unternehmensgründung, Vertragsgestaltung und Beilegung von Handelsstreitigkeiten."
+      }
+    ]
+  },
+  "estates": {
+    "badge": "Immobilienberatung",
+    "title": "Ihre Traumimmobilie\nfinden wir\ngemeinsam",
+    "desc": "Professionelle Begleitung bei Bewertung, Portfolioverwaltung und Erwerb von Luxuswohn- und Gewerbeimmobilien.",
+    "cta1": "Kontakt aufnehmen",
+    "cta2": "Alle Angebote",
+    "whatsapp1": "Guten Tag, ich würde gerne mehr über Ihre Immobilienberatung erfahren.",
+    "whatsapp2": "Guten Tag, ich würde gerne Ihre Immobilienangebote einsehen.",
+    "quote": "Ihre Traumimmobilie finden wir gemeinsam.",
+    "quoteDesc": "Kontaktieren Sie uns, um unser Portfolio kennenzulernen.",
+    "imgAlt": "Foto",
+    "imgAlt2": "Immobilienberater",
+    "features": [
+      {
+        "title": "Umfangreiches Portfolio",
+        "desc": "Die passende Immobilie aus Hunderten von Optionen — nur für Sie."
+      },
+      {
+        "title": "Sicherer Prozess",
+        "desc": "Rechtliche Absicherung in allen Phasen des Erwerbs."
+      }
+    ],
+    "listings": [
+      {
+        "title": "Bewertung",
+        "desc": "Professionelle Marktanalyse"
+      },
+      {
+        "title": "Portfolioverwaltung",
+        "desc": "Individuelle Immobilienoptionen"
+      },
+      {
+        "title": "Rechtsberatung",
+        "desc": "Sicherer Kaufprozess"
+      },
+      {
+        "title": "Investitionsanalyse",
+        "desc": "Rentable Chancen gemeinsam erschließen"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Abgeschlossene Transaktionen"
+      },
+      {
+        "value": "7+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "95%",
+        "label": "Kundenzufriedenheit"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Wie wir arbeiten",
+    "title": "Unser",
+    "titleHighlight": "Arbeitsprozess",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Bedarfsanalyse",
+        "description": "Wir analysieren Ihre Investitionsziele, Ihr Budget und Ihre besonderen Anforderungen im Detail."
+      },
+      {
+        "id": "02",
+        "title": "Strategieentwicklung",
+        "description": "Wir erarbeiten das optimale Immobilienportfolio oder den passenden rechtlichen Lösungsplan für Sie."
+      },
+      {
+        "id": "03",
+        "title": "Umsetzung",
+        "description": "Kauf, Vermietung oder rechtliche Verfahren werden von unserem Expertenteam professionell begleitet."
+      },
+      {
+        "id": "04",
+        "title": "Ergebnis und Support",
+        "description": "Auch nach Abschluss der Transaktion bleiben wir an Ihrer Seite — für Ihre vollständige Zufriedenheit."
+      }
+    ]
+  },
+  "translator": {
+    "badge": "Beeidigte Übersetzung",
+    "langs": "عربي · تركي",
+    "title1": "Arabisch –",
+    "title2": "Türkisch",
+    "title3": "Beeidigte",
+    "title4": "Übersetzung",
+    "desc": "Notariell beglaubigte Übersetzungen mit hoher Rechtsgültigkeit — für offizielle Dokumente, Gerichtsverfahren und internationale Transaktionen.",
+    "trust": [
+      "Notariell beglaubigt",
+      "Behördlich anerkannt",
+      "Vertraulichkeit garantiert"
+    ],
+    "cta1": "Übersetzung anfordern",
+    "cta2": "Leistungen ansehen",
+    "whatsapp1": "Guten Tag, ich möchte eine beeidigte Arabisch-Türkisch-Übersetzung anfordern.",
+    "whatsapp2": "Guten Tag, ich würde gerne mehr über Ihre beeidigten Übersetzungsleistungen erfahren.",
+    "quote": "Worte bauen Brücken — wir bauen sie richtig.",
+    "delivery": "Dokument einsenden — Lieferung in 48 Stunden",
+    "imgAlt": "Beeidigter Übersetzer",
+    "properties": [
+      {
+        "value": "Beeidigte Übersetzung",
+        "label": "Anerkannt für Gericht und Notar"
+      },
+      {
+        "value": "Dokumentenübersetzung",
+        "label": "Reisepass, Diplom, Vertrag"
+      },
+      {
+        "value": "Apostille-Dienste",
+        "label": "Internationale Dokumentenbeglaubigung"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "KONTAKT AUFNEHMEN",
+    "heading": "Für die Dienstleistungen Ihrer Wahl\nkontaktieren Sie uns",
+    "desc": "Als Prestige Real Estate bieten wir professionelle Beratung und zuverlässige Lösungen, damit Sie Ihre Investitionsziele erreichen.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "trust": [
+      {
+        "label": "ZUVERLÄSSIGER SERVICE",
+        "desc": "An Ihrer Seite in jeder Phase."
+      },
+      {
+        "label": "EXPERTENBERATUNG",
+        "desc": "Optimale Lösungen von unserem erfahrenen Team."
+      },
+      {
+        "label": "SCHNELLE RÜCKMELDUNG",
+        "desc": "Wir beantworten Ihre Fragen so schnell wie möglich."
+      }
+    ],
+    "form": {
+      "nameLabel": "VOR- UND NACHNAME",
+      "namePlaceholder": "Ihr Vor- und Nachname",
+      "messageLabel": "NACHRICHT",
+      "messagePlaceholder": "Schreiben Sie Ihre Nachricht…",
+      "submit": "BERATUNG ANFORDERN",
+      "privacy": "Ihre Daten sind vertraulich und sicher.",
+      "whatsappMessage": "Guten Tag, Beratungsanfrage:\n\nName: {name}\nNachricht: {message}"
+    }
+  },
+  "footer": {
+    "tagline": "Die vertrauenswürdige Adresse für Luxusimmobilieninvestitionen, Rechtsberatung und beeidigte Arabisch-Türkisch-Übersetzung. Exklusiver Service in den renommiertesten Projekten Istanbuls.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "quickLinksTitle": "Schnelllinks",
+    "servicesTitle": "Unsere Leistungen",
+    "copyright": "© {year} Firas Real Estate. Alle Rechte vorbehalten.",
+    "navLinks": [
+      {
+        "label": "Startseite",
+        "href": "#hero"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      },
+      {
+        "label": "Rechtsberatung",
+        "href": "#law"
+      },
+      {
+        "label": "Immobilien",
+        "href": "#estates"
+      },
+      {
+        "label": "Übersetzer",
+        "href": "#translator"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#contact"
+      }
+    ],
+    "services": [
+      {
+        "label": "Immobilienrecht",
+        "href": "#law"
+      },
+      {
+        "label": "Investitionsberatung",
+        "href": "#law"
+      },
+      {
+        "label": "Aufenthaltserlaubnis",
+        "href": "#law"
+      },
+      {
+        "label": "Handelsrecht",
+        "href": "#law"
+      },
+      {
+        "label": "Portfolioverwaltung",
+        "href": "#estates"
+      },
+      {
+        "label": "Beeidigte Arabisch-Türkisch-Übersetzung",
+        "href": "#translator"
+      }
+    ]
+  }
+}

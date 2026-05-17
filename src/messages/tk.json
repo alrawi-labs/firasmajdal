@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Baş sahypa",
+    "about": "Biz hakda",
+    "law": "Hukuk hyzmatlary",
+    "estates": "Gozgalmaýan emläk",
+    "translator": "Terjimeçi",
+    "contact": "Habarlaşmak",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsapp": {
+    "default": "Salam, hyzmatlaryňyz barada maglumat almak isleýärin."
+  },
+  "hero": {
+    "badge": "Ynam · Tejribe · Üstünlik",
+    "title1": "Hünärli Gozgalmaýan Emläk",
+    "title2": "Kasam Eden Terjimeçi",
+    "title3": "we Hukuk Geňeşdarlyk",
+    "desc": "Türkiýäniň iň abraýly ýerlerinde lüks emläk maýa goýumlary, hukuk işleri we arap-türk kasam eden terjime hyzmatlary üçin şahsylaşdyrylan, ýokary derejeli geňeşdarlyk.",
+    "cta1": "Biz bilen habarlaşyň",
+    "cta2": "Hyzmatlarymyz bilen tanyşyň"
+  },
+  "about": {
+    "badge": "Biz hakda",
+    "title": "Ynam we hünär bilen",
+    "titleHighlight": "siziň ýanyňyzda",
+    "p1": "Köp ýyllyk tejribe we çuňňur pudak bilimleri bilen müşderilerimize gozgalmaýan emläk maýa goýumlarynda dogry karar almaga ýol görkezýäris.",
+    "p2": "Türkiýäniň abraýly ýerlerinde ýöriteleşen hukuk geňeşdarlyk we terjime hyzmatlarymyz bilen her ädimde ygtybarly iş hyzmatdaşyňyz hökmünde ýanyňyzdadyrys."
+  },
+  "map": {
+    "badge": "HYZMAT GERIMIZ",
+    "title": "Türkiýäniň 81 welaýatynda",
+    "titleHighlight": "siziň hyzmatyňyzda",
+    "desc": "Gozgalmaýan emläk, hukuk geňeşdarlyk we arap-türk kasam eden terjime hyzmatlarymyz tutuş Türkiýede hereket edýär.",
+    "loading": "Karta ýüklenýär…",
+    "error": "Karta ýüklenip bilinmedi. Sahypany täzeläň.",
+    "ariaLabel": "Türkiýe welaýatlarynyň kartasy",
+    "whatsappMessage": "Salam, {city} welaýatynda hyzmatlaryňyz barada maglumat almak isleýärin.",
+    "hint": "Gyzyklanýan sebitine basyň"
+  },
+  "law": {
+    "badge": "Hünärli geňeşdarlyk",
+    "title": "Hukuk geňeşdarlyk hyzmatlary",
+    "desc": "Müşderilerimize iň gowy hukuk çözgütlerini hödürlemek üçin hünärmenligimizi we tejribämizi birleşdirýäris.",
+    "cta1": "Duşuşyk bellemek",
+    "cta2": "Hyzmatlary görmek",
+    "trustLabel": "Ynam we tejribe",
+    "trustDesc": "Köp ýyllyk tejribe bilen ýanyňyzda.",
+    "whatsapp1": "Salam, hukuk geňeşdarlyk üçin duşuşyk bellemek isleýärin.",
+    "whatsapp2": "Salam, hukuk geňeşdarlyk hyzmatlaryňyz barada maglumat almak isleýärin.",
+    "imgAlt": "Hukuk geňeşdarы"
+  },
+  "services": {
+    "badge": "Hyzmatlarymyz",
+    "title": "Size özel",
+    "titleHighlight": "çözgütler",
+    "items": [
+      {
+        "title": "Emläk hukugy",
+        "description": "Gozgalmaýan emläk alym-satym, kireýine alma we beýleki amallarynda hukuk goldawyny berýäris."
+      },
+      {
+        "title": "Maýa goýum geňeşdarlyk",
+        "description": "Içerki we daşarky maýa goýumlar üçin hukuk geňeşdarlyk hyzmatlaryny hödürleýäris."
+      },
+      {
+        "title": "Ýaşaýyş rugsady işleri",
+        "description": "Oturma rugsady alyş prosesinde hünärli goldaw bilen her ädimi yzarlaýarys."
+      },
+      {
+        "title": "Söwda hukugy",
+        "description": "Kompaniýa döretmek, şertnamalar we söwda dawalarynda ýanyňyzda bolýarys."
+      }
+    ]
+  },
+  "estates": {
+    "badge": "Gozgalmaýan emläk geňeşdarlyk",
+    "title": "Düýş emlägiňizi\nbilelikde\ntapýarys",
+    "desc": "Lüks ýaşaýyş we söwda gozgalmaýan emläk maýa goýumlarynda baha kesgitlemek, portfel dolandyrmak we satyn alma prosesinde hünärli ýolbaşçylyk.",
+    "cta1": "Habarlaşyň",
+    "cta2": "Ähli bildirişler",
+    "whatsapp1": "Salam, gozgalmaýan emläk geňeşdarlyk barada maglumat almak isleýärin.",
+    "whatsapp2": "Salam, emläk bildirişleriňizi görmek isleýärin.",
+    "quote": "Düýş emlägiňizi bilelikde tapýarys.",
+    "quoteDesc": "Portfelimiz bilen tanyşmak üçin habarlaşyň.",
+    "imgAlt": "Surat",
+    "imgAlt2": "Emläk geňeşdary",
+    "features": [
+      {
+        "title": "Giň portfel",
+        "desc": "Ýüzlerçe wariantdan size özel emläk."
+      },
+      {
+        "title": "Ygtybarly proses",
+        "desc": "Satyn alma prosesinde hukuk kepilligi."
+      }
+    ],
+    "listings": [
+      {
+        "title": "Baha kesgitlemek",
+        "desc": "Hünärli bazar derňewi"
+      },
+      {
+        "title": "Portfel dolandyrmak",
+        "desc": "Size özel emläk wariantlary"
+      },
+      {
+        "title": "Hukuk geňeşdarlyk",
+        "desc": "Ygtybarly satyn alma prosesi"
+      },
+      {
+        "title": "Maýa goýum derňewi",
+        "desc": "Bilelikde peýdaly mümkinçilikleri açyň"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Tamamlanan amal"
+      },
+      {
+        "value": "7+",
+        "label": "Ýyllyk tejribe"
+      },
+      {
+        "value": "95%",
+        "label": "Müşderi kanagatlylygy"
+      }
+    ]
+  },
+  "process": {
+    "badge": "Nähili işleýäris?",
+    "title": "Iş",
+    "titleHighlight": "prosesimiz",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Isleg derňewi",
+        "description": "Maýa goýum maksatlaryňyzy, býudjetiňizi we ýörite talaplaryňyzy jikme-jik derňeýäris."
+      },
+      {
+        "id": "02",
+        "title": "Strategiýa düzmek",
+        "description": "Size iň laýyk gozgalmaýan emläk portfelini ýa-da hukuk çözgüt kartasyny düzýäris."
+      },
+      {
+        "id": "03",
+        "title": "Amala aşyrmak",
+        "description": "Satyn alma, kireýine alma ýa-da hukuk proseslerini hünärli toparymyz bilen dolandyrýarys."
+      },
+      {
+        "id": "04",
+        "title": "Netije we goldaw",
+        "description": "Amalyň tamamlanandan soňam doly müşderi kanagatlylygy üçin ýanyňyzda bolmagymyzy dowam etdirýäris."
+      }
+    ]
+  },
+  "translator": {
+    "badge": "Kasam eden terjime hyzmaty",
+    "langs": "عربي · تürkçe",
+    "title1": "Arapça –",
+    "title2": "Türkçe",
+    "title3": "Kasam eden",
+    "title4": "terjimeçilik",
+    "desc": "Resmi resminamalaryňyz, kazyýet prosesleriňiz we halkara amallar üçin notarial tassyklanan, ýokary hukuk güýji bolan terjime hyzmaty.",
+    "trust": [
+      "Notarial tassyklanan",
+      "Resmi edaralar tarapyndan kabul edilýär",
+      "Gizlinlik kepillendirilýär"
+    ],
+    "cta1": "Terjime sargamak",
+    "cta2": "Hyzmatlary görmek",
+    "whatsapp1": "Salam, arap-türk kasam eden terjime hyzmatyny sargamak isleýärin.",
+    "whatsapp2": "Salam, arap-türk kasam eden terjime hyzmatlaryňyz barada maglumat almak isleýärin.",
+    "quote": "Sözler köpri gurýar — biz ol köprini dogry gurýarys.",
+    "delivery": "Resminamaňyzy iberiň — 48 sagatda taýyn",
+    "imgAlt": "Kasam eden terjimeçi",
+    "properties": [
+      {
+        "value": "Kasam eden terjime",
+        "label": "Kazyýet we notar üçin tassyklanan"
+      },
+      {
+        "value": "Resminama terjimesi",
+        "label": "Pasport, diplom, şertnama"
+      },
+      {
+        "value": "Apostil işleri",
+        "label": "Halkara resminama tassyklamasy"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "BIZ BILEN HABARLAŞYŇ",
+    "heading": "Düýş hyzmatlaryngyz üçin\nbiz bilen habarlaşyň",
+    "desc": "Prestige Real Estate hökmünde maýa goýum maksatlaryňyza ýetmek üçin hünärli geňeşdarlyk we ygtybarly çözgütler hödürleýäris.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "trust": [
+      {
+        "label": "YGTYBARLY HYZMAT",
+        "desc": "Ähli proseslerde ýanyňyzda."
+      },
+      {
+        "label": "HÜNÄRLI GEŇEŞDARLYK",
+        "desc": "Tejribeli toparymyz bilen iň dogry çözgütler."
+      },
+      {
+        "label": "ÇALT JOGAP",
+        "desc": "Soraglaryňyza iň gysga wagtda jogap berýäris."
+      }
+    ],
+    "form": {
+      "nameLabel": "ADY FAMILIÝASY",
+      "namePlaceholder": "Adyňyz we familiýaňyz",
+      "messageLabel": "HABAR",
+      "messagePlaceholder": "Habarňyzy ýazyň…",
+      "submit": "GEŇEŞDARLYK AL",
+      "privacy": "Maglumatlaryňyz gizlin we howpsuz.",
+      "whatsappMessage": "Salam, geňeşdarlyk sargydy:\n\nAdy: {name}\nHabar: {message}"
+    }
+  },
+  "footer": {
+    "tagline": "Lüks gozgalmaýan emläk maýa goýumlary, hukuk geňeşdarlyk we arap-türk kasam eden terjimede ynamy nyşany. Stambulň abraýly taslamalarynda aýratyn hyzmat.",
+    "phoneLabel": "TELEFON",
+    "phoneValue": "+90 542 766 61 90",
+    "quickLinksTitle": "Çalt baglantыlar",
+    "servicesTitle": "Hyzmatlarymyz",
+    "copyright": "© {year} Firas Real Estate. Ähli hukuklar goralýar.",
+    "navLinks": [
+      {
+        "label": "Baş sahypa",
+        "href": "#hero"
+      },
+      {
+        "label": "Biz hakda",
+        "href": "#about"
+      },
+      {
+        "label": "Hukuk hyzmatlary",
+        "href": "#law"
+      },
+      {
+        "label": "Gozgalmaýan emläk",
+        "href": "#estates"
+      },
+      {
+        "label": "Terjimeçi",
+        "href": "#translator"
+      },
+      {
+        "label": "Habarlaşmak",
+        "href": "#contact"
+      }
+    ],
+    "services": [
+      {
+        "label": "Emläk hukugy",
+        "href": "#law"
+      },
+      {
+        "label": "Maýa goýum geňeşdarlyk",
+        "href": "#law"
+      },
+      {
+        "label": "Ýaşaýyş rugsady işleri",
+        "href": "#law"
+      },
+      {
+        "label": "Söwda hukugy",
+        "href": "#law"
+      },
+      {
+        "label": "Portfel dolandyrmak",
+        "href": "#estates"
+      },
+      {
+        "label": "Arap-türk kasam eden terjimeçilik",
+        "href": "#translator"
+      }
+    ]
+  }
+}
