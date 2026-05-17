@@ -1,31 +1,52 @@
 "use client";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Shield, Handshake, Clock, ArrowRight } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Shield,
+  Handshake,
+  Clock,
+  ArrowRight,
+} from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 
 const schema = z.object({
   fullName: z.string().min(2),
-  phone: z.string().min(10),
-  email: z.string().email(),
-  message: z.string().min(5),
+  message: z.string().min(1),
 });
 
 const trustItems = [
-  { icon: Shield, label: "GÜVENLİ HİZMET", desc: "Tüm süreçlerinizde yanınızdayız." },
-  { icon: Handshake, label: "UZMAN DANIŞMANLIK", desc: "Deneyimli ekibimizle en doğru çözümler." },
-  { icon: Clock, label: "HIZLI DÖNÜŞ", desc: "Sorularınıza en kısa sürede yanıt veriyoruz." },
+  {
+    icon: Shield,
+    label: "GÜVENLİ HİZMET",
+    desc: "Tüm süreçlerinizde yanınızdayız.",
+  },
+  {
+    icon: Handshake,
+    label: "UZMAN DANIŞMANLIK",
+    desc: "Deneyimli ekibimizle en doğru çözümler.",
+  },
+  {
+    icon: Clock,
+    label: "HIZLI DÖNÜŞ",
+    desc: "Sorularınıza en kısa sürede yanıt veriyoruz.",
+  },
 ];
 
 export function Contact() {
   const form = useForm<z.infer<typeof schema>>({
     resolver: zodResolver(schema),
-    defaultValues: { fullName: "", phone: "", email: "", message: "" },
+    defaultValues: { fullName: "", message: "" },
   });
 
   function onSubmit(values: z.infer<typeof schema>) {
-    console.log(values);
+    const message = `Merhaba, danışmanlık talebi:\n\nAd Soyad: ${values.fullName}\nMesaj: ${values.message}`;
+    const url = `https://api.whatsapp.com/send?phone=905427666190&text=${encodeURIComponent(message)}`;
+    window.location.href = url;
     form.reset();
   }
 
@@ -187,7 +208,6 @@ export function Contact() {
         {/* ── Content ── */}
         <div className="contact-container container mx-auto px-6 md:px-12 relative z-10">
           <div className="contact-grid">
-
             {/* LEFT COLUMN */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -197,33 +217,62 @@ export function Contact() {
             >
               {/* Section label */}
               <div className="flex items-center gap-3 mb-8">
-                <span style={{ color: "#C9A84C", fontSize: "12px", fontWeight: 600, letterSpacing: "0.2em" }}>
+                <span
+                  style={{
+                    color: "#C9A84C",
+                    fontSize: "12px",
+                    fontWeight: 600,
+                    letterSpacing: "0.2em",
+                  }}
+                >
                   İLETİŞİME GEÇİN
                 </span>
-                <span style={{ height: "1px", width: "48px", background: "#C9A84C", display: "block" }} />
+                <span
+                  style={{
+                    height: "1px",
+                    width: "48px",
+                    background: "#C9A84C",
+                    display: "block",
+                  }}
+                />
               </div>
 
               {/* Heading */}
               <h2
                 className="contact-heading mb-6 leading-tight"
                 style={{
-                  fontFamily: "'Cormorant Garamond', 'Playfair Display', Georgia, serif",
+                  fontFamily:
+                    "'Cormorant Garamond', 'Playfair Display', Georgia, serif",
                   fontSize: "clamp(2rem, 4vw, 3rem)",
                   fontWeight: 300,
                   color: "#FFFFFF",
                   letterSpacing: "-0.01em",
                 }}
               >
-                Hayalinizdeki Hizmetler İçin<br />
+                Hayalinizdeki Hizmetler İçin
+                <br />
                 Bizimle İletişime Geçin
               </h2>
 
-              <p className="mb-10" style={{ color: "rgba(255,255,255,0.55)", fontSize: "15px", lineHeight: 1.7 }}>
-                Prestige Real Estate olarak, yatırım hedeflerinize ulaşmanız için
-                profesyonel danışmanlık ve güvenilir çözümler sunuyoruz.
+              <p
+                className="mb-10"
+                style={{
+                  color: "rgba(255,255,255,0.55)",
+                  fontSize: "15px",
+                  lineHeight: 1.7,
+                }}
+              >
+                Prestige Real Estate olarak, yatırım hedeflerinize ulaşmanız
+                için profesyonel danışmanlık ve güvenilir çözümler sunuyoruz.
               </p>
 
-              <div style={{ height: "1px", background: "rgba(201,168,76,0.25)", marginBottom: "2.5rem" }} />
+              <div
+                style={{
+                  height: "1px",
+                  background: "rgba(201,168,76,0.25)",
+                  marginBottom: "2.5rem",
+                }}
+              />
 
               {/* Contact info */}
               <div className="contact-info-icons space-y-6">
@@ -236,7 +285,9 @@ export function Contact() {
                       style={{
                         border: "1px solid rgba(201,168,76,0.35)",
                         borderRadius: "50%",
-                        display: "flex", alignItems: "center", justifyContent: "center",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
                         flexShrink: 0,
                       }}
                     >
@@ -247,10 +298,25 @@ export function Contact() {
                       />
                     </div>
                     <div>
-                      <p className="contact-phone-label" style={{ color: "#C9A84C", fontWeight: 600, letterSpacing: "0.15em", marginBottom: "4px" }}>
+                      <p
+                        className="contact-phone-label"
+                        style={{
+                          color: "#C9A84C",
+                          fontWeight: 600,
+                          letterSpacing: "0.15em",
+                          marginBottom: "4px",
+                        }}
+                      >
                         {label}
                       </p>
-                      <p className="contact-phone-value" style={{ color: "rgba(255,255,255,0.85)", whiteSpace: "pre-line", lineHeight: 1.5 }}>
+                      <p
+                        className="contact-phone-value"
+                        style={{
+                          color: "rgba(255,255,255,0.85)",
+                          whiteSpace: "pre-line",
+                          lineHeight: 1.5,
+                        }}
+                      >
                         {value}
                       </p>
                     </div>
@@ -280,11 +346,33 @@ export function Contact() {
                       textAlign: "center",
                     }}
                   >
-                    <Icon size={22} style={{ color: "#C9A84C", margin: "0 auto 10px", display: "block" }} strokeWidth={1.5} />
-                    <p style={{ color: "#C9A84C", fontSize: "10px", fontWeight: 700, letterSpacing: "0.12em", marginBottom: "6px" }}>
+                    <Icon
+                      size={22}
+                      style={{
+                        color: "#C9A84C",
+                        margin: "0 auto 10px",
+                        display: "block",
+                      }}
+                      strokeWidth={1.5}
+                    />
+                    <p
+                      style={{
+                        color: "#C9A84C",
+                        fontSize: "10px",
+                        fontWeight: 700,
+                        letterSpacing: "0.12em",
+                        marginBottom: "6px",
+                      }}
+                    >
                       {label}
                     </p>
-                    <p style={{ color: "rgba(255,255,255,0.45)", fontSize: "12px", lineHeight: 1.5 }}>
+                    <p
+                      style={{
+                        color: "rgba(255,255,255,0.45)",
+                        fontSize: "12px",
+                        lineHeight: 1.5,
+                      }}
+                    >
                       {desc}
                     </p>
                   </div>
@@ -309,30 +397,43 @@ export function Contact() {
                   border: "1px solid rgba(201,168,76,0.25)",
                   borderRadius: "16px",
                   padding: "40px 36px",
-                  boxShadow: "0 32px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(201,168,76,0.15)",
+                  boxShadow:
+                    "0 32px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(201,168,76,0.15)",
                 }}
               >
                 {/* Logo */}
                 <div className="flex justify-center mb-8">
-                  <img src="assets/firas_logo.png" alt="Firas Real Estate" className="w-[150px] h-auto object-contain" />
+                  <img
+                    src="assets/firas_logo.png"
+                    alt="Firas Real Estate"
+                    className="w-[150px] h-auto object-contain"
+                  />
                 </div>
 
                 {/* Form */}
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
+                <form
+                  onSubmit={form.handleSubmit(onSubmit)}
+                  className="space-y-5"
+                >
                   {[
-                    { name: "fullName" as const, label: "AD SOYAD", placeholder: "Adınız ve Soyadınız", type: "text" },
-                    { name: "phone" as const, label: "TELEFON", placeholder: "Telefon Numaranız", type: "tel" },
-                    { name: "email" as const, label: "E-POSTA", placeholder: "E-posta Adresiniz", type: "email" },
+                    {
+                      name: "fullName" as const,
+                      label: "AD SOYAD",
+                      placeholder: "Adınız ve Soyadınız",
+                      type: "text",
+                    },
                   ].map(({ name, label, placeholder, type }) => (
                     <div key={name}>
-                      <label style={{
-                        display: "block",
-                        fontSize: "10px",
-                        fontWeight: 600,
-                        letterSpacing: "0.15em",
-                        color: "rgba(255,255,255,0.5)",
-                        marginBottom: "8px",
-                      }}>
+                      <label
+                        style={{
+                          display: "block",
+                          fontSize: "10px",
+                          fontWeight: 600,
+                          letterSpacing: "0.15em",
+                          color: "rgba(255,255,255,0.5)",
+                          marginBottom: "8px",
+                        }}
+                      >
                         {label}
                       </label>
                       <input
@@ -351,21 +452,27 @@ export function Contact() {
                           transition: "border-color 0.2s",
                           boxSizing: "border-box",
                         }}
-                        onFocus={(e) => (e.target.style.borderColor = "rgba(201,168,76,0.6)")}
-                        onBlur={(e) => (e.target.style.borderColor = "rgba(201,168,76,0.2)")}
+                        onFocus={(e) =>
+                          (e.target.style.borderColor = "rgba(201,168,76,0.6)")
+                        }
+                        onBlur={(e) =>
+                          (e.target.style.borderColor = "rgba(201,168,76,0.2)")
+                        }
                       />
                     </div>
                   ))}
 
                   <div>
-                    <label style={{
-                      display: "block",
-                      fontSize: "10px",
-                      fontWeight: 600,
-                      letterSpacing: "0.15em",
-                      color: "rgba(255,255,255,0.5)",
-                      marginBottom: "8px",
-                    }}>
+                    <label
+                      style={{
+                        display: "block",
+                        fontSize: "10px",
+                        fontWeight: 600,
+                        letterSpacing: "0.15em",
+                        color: "rgba(255,255,255,0.5)",
+                        marginBottom: "8px",
+                      }}
+                    >
                       MESAJ
                     </label>
                     <textarea
@@ -386,8 +493,12 @@ export function Contact() {
                         transition: "border-color 0.2s",
                         boxSizing: "border-box",
                       }}
-                      onFocus={(e) => (e.target.style.borderColor = "rgba(201,168,76,0.6)")}
-                      onBlur={(e) => (e.target.style.borderColor = "rgba(201,168,76,0.2)")}
+                      onFocus={(e) =>
+                        (e.target.style.borderColor = "rgba(201,168,76,0.6)")
+                      }
+                      onBlur={(e) =>
+                        (e.target.style.borderColor = "rgba(201,168,76,0.2)")
+                      }
                     />
                   </div>
 
@@ -397,7 +508,8 @@ export function Contact() {
                     whileTap={{ scale: 0.98 }}
                     style={{
                       width: "100%",
-                      background: "linear-gradient(135deg, #C9A84C 0%, #E8C96A 50%, #C9A84C 100%)",
+                      background:
+                        "linear-gradient(135deg, #C9A84C 0%, #E8C96A 50%, #C9A84C 100%)",
                       border: "none",
                       borderRadius: "8px",
                       padding: "16px 24px",
@@ -417,14 +529,26 @@ export function Contact() {
                     <ArrowRight size={16} />
                   </motion.button>
 
-                  <p style={{ textAlign: "center", fontSize: "12px", color: "rgba(255,255,255,0.35)", display: "flex", alignItems: "center", justifyContent: "center", gap: "6px" }}>
-                    <Shield size={13} style={{ color: "rgba(201,168,76,0.5)" }} />
+                  <p
+                    style={{
+                      textAlign: "center",
+                      fontSize: "12px",
+                      color: "rgba(255,255,255,0.35)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      gap: "6px",
+                    }}
+                  >
+                    <Shield
+                      size={13}
+                      style={{ color: "rgba(201,168,76,0.5)" }}
+                    />
                     Bilgileriniz gizli ve güvenlidir.
                   </p>
                 </form>
               </div>
             </motion.div>
-
           </div>
         </div>
       </section>

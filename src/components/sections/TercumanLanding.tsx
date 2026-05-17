@@ -1,4 +1,5 @@
 "use client";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 import { motion } from "framer-motion";
 
 const properties = [
@@ -148,7 +149,10 @@ export function TercumanLanding() {
         {/* ── ANA GRID ── */}
         <div
           className="tl-main-grid flex-1 grid md:grid-cols-[1fr_45%] min-h-0 mb-24"
-          style={{ padding: "clamp(20px,5vh,60px) clamp(24px,5vw,72px)", gap: "clamp(20px,3vw,48px)" }}
+          style={{
+            padding: "clamp(20px,5vh,60px) clamp(24px,5vw,72px)",
+            gap: "clamp(20px,3vw,48px)",
+          }}
         >
           {/* ── SOL — metin (mobilde flex-col + order ile yeniden sıralanır) ── */}
           <motion.div
@@ -165,10 +169,20 @@ export function TercumanLanding() {
               >
                 Yeminli Tercüme Hizmeti
               </span>
-              <div style={{ flex: 1, height: "0.5px", background: "rgba(184,151,90,0.35)" }} />
+              <div
+                style={{
+                  flex: 1,
+                  height: "0.5px",
+                  background: "rgba(184,151,90,0.35)",
+                }}
+              />
               <span
                 className="text-[#B8975A]"
-                style={{ fontSize: "13px", fontFamily: "serif", direction: "rtl" }}
+                style={{
+                  fontSize: "13px",
+                  fontFamily: "serif",
+                  direction: "rtl",
+                }}
               >
                 عربي · تركي
               </span>
@@ -181,13 +195,28 @@ export function TercumanLanding() {
                 style={{ fontSize: "clamp(2.6rem,5.2vw,5rem)" }}
               >
                 Arapça –<br />
-                <span style={{ color: "#B8975A" }}>Türkçe</span><br />
-                Yeminli<br />
+                <span style={{ color: "#B8975A" }}>Türkçe</span>
+                <br />
+                Yeminli
+                <br />
                 Tercümanlık
               </h1>
               <div className="flex items-center gap-3">
-                <div style={{ width: "36px", height: "2px", background: "#B8975A" }} />
-                <div style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#B8975A30" }} />
+                <div
+                  style={{
+                    width: "36px",
+                    height: "2px",
+                    background: "#B8975A",
+                  }}
+                />
+                <div
+                  style={{
+                    width: "8px",
+                    height: "8px",
+                    borderRadius: "50%",
+                    background: "#B8975A30",
+                  }}
+                />
               </div>
             </div>
 
@@ -195,10 +224,14 @@ export function TercumanLanding() {
             <div className="tl-subtitle-block">
               <p
                 className="text-[#555] leading-relaxed"
-                style={{ fontSize: "clamp(13px,1.1vw,16px)", maxWidth: "400px" }}
+                style={{
+                  fontSize: "clamp(13px,1.1vw,16px)",
+                  maxWidth: "400px",
+                }}
               >
-                Resmi belgeleriniz, mahkeme süreçleriniz ve uluslararası işlemleriniz
-                için noter onaylı, hukuki geçerliliği yüksek tercüme hizmeti.
+                Resmi belgeleriniz, mahkeme süreçleriniz ve uluslararası
+                işlemleriniz için noter onaylı, hukuki geçerliliği yüksek
+                tercüme hizmeti.
               </p>
             </div>
 
@@ -210,7 +243,12 @@ export function TercumanLanding() {
               <img
                 src="assets/tercuman.png"
                 alt="Yeminli Tercüman"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "top",
+                }}
               />
               {/* Arabça dekoratif yazı (fallback) */}
               <div
@@ -232,7 +270,10 @@ export function TercumanLanding() {
               </div>
               <div
                 className="absolute inset-0 pointer-events-none"
-                style={{ background: "linear-gradient(to bottom, transparent 50%, #1a1a1a 100%)" }}
+                style={{
+                  background:
+                    "linear-gradient(to bottom, transparent 50%, #1a1a1a 100%)",
+                }}
               />
             </div>
 
@@ -255,10 +296,20 @@ export function TercumanLanding() {
                       background: "rgba(184,151,90,0.06)",
                     }}
                   >
-                    <div style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#B8975A" }} />
+                    <div
+                      style={{
+                        width: "5px",
+                        height: "5px",
+                        borderRadius: "50%",
+                        background: "#B8975A",
+                      }}
+                    />
                     <span
                       className="text-[#1a1a1a]"
-                      style={{ fontSize: "clamp(10px,0.85vw,12px)", letterSpacing: "0.1em" }}
+                      style={{
+                        fontSize: "clamp(10px,0.85vw,12px)",
+                        letterSpacing: "0.1em",
+                      }}
                     >
                       {b.label}
                     </span>
@@ -268,37 +319,70 @@ export function TercumanLanding() {
 
               {/* Butonlar */}
               <div className="tl-buttons flex flex-wrap gap-3 mb-0">
-                <button
-                  className="flex items-center gap-2 bg-[#1a1a1a] text-white hover:bg-[#B8975A] transition-colors duration-300 tracking-[0.18em] uppercase"
-                  style={{
-                    fontSize: "clamp(10px,0.9vw,12px)",
-                    padding: "clamp(12px,1.4vh,16px) clamp(20px,2.2vw,32px)",
-                  }}
+                <a
+                  href={getWhatsAppLink("Merhaba, Arapça-Türkçe yeminli tercüme hizmeti talep etmek istiyorum.")}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Tercüme Talep Et
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </button>
-                <button
-                  className="flex items-center gap-2 text-[#1a1a1a] hover:text-[#B8975A] hover:border-[#B8975A] transition-colors duration-300 tracking-[0.18em] uppercase border"
-                  style={{
-                    fontSize: "clamp(10px,0.9vw,12px)",
-                    padding: "clamp(12px,1.4vh,16px) clamp(20px,2.2vw,32px)",
-                    borderColor: "rgba(0,0,0,0.2)",
-                  }}
+                  <button
+                    className="flex items-center gap-2 bg-[#1a1a1a] text-white hover:bg-[#B8975A] transition-colors duration-300 tracking-[0.18em] uppercase cursor-pointer"
+                    style={{
+                      fontSize: "clamp(10px,0.9vw,12px)",
+                      padding: "clamp(12px,1.4vh,16px) clamp(20px,2.2vw,32px)",
+                    }}
+                  >
+                    Tercüme Talep Et
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </a>
+                <a
+                  href={getWhatsAppLink("Merhaba, Arapça-Türkçe yeminli tercüme hizmetlerinizi görmek istiyorum.")}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Hizmetleri Gör
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </button>
+                  <button
+                    className="flex items-center gap-2 text-[#1a1a1a] hover:text-[#B8975A] hover:border-[#B8975A] transition-colors duration-300 tracking-[0.18em] uppercase border cursor-pointer"
+                    style={{
+                      fontSize: "clamp(10px,0.9vw,12px)",
+                      padding: "clamp(12px,1.4vh,16px) clamp(20px,2.2vw,32px)",
+                      borderColor: "rgba(0,0,0,0.2)",
+                    }}
+                  >
+                    Hizmetleri Gör
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </a>
               </div>
 
               {/* İstatistik şeridi */}
               <div
                 className="tl-stats-strip hidden md:flex gap-0 mt-6"
-                style={{ borderTop: "0.5px solid rgba(0,0,0,0.1)", paddingTop: "clamp(16px,2vh,28px)" }}
+                style={{
+                  borderTop: "0.5px solid rgba(0,0,0,0.1)",
+                  paddingTop: "clamp(16px,2vh,28px)",
+                }}
               >
                 {properties.map((s, i) => (
                   <div
@@ -307,12 +391,18 @@ export function TercumanLanding() {
                     style={{
                       paddingRight: "clamp(24px,3vw,48px)",
                       marginRight: "clamp(24px,3vw,48px)",
-                      borderRight: i < properties.length - 1 ? "0.5px solid rgba(0,0,0,0.1)" : "none",
+                      borderRight:
+                        i < properties.length - 1
+                          ? "0.5px solid rgba(0,0,0,0.1)"
+                          : "none",
                     }}
                   >
                     <span
                       className="tl-stat-value text-[#1a1a1a] leading-none"
-                      style={{ fontSize: "clamp(1.5rem,2.8vw,2.6rem)", fontWeight: 700 }}
+                      style={{
+                        fontSize: "clamp(1.5rem,2.8vw,2.6rem)",
+                        fontWeight: 700,
+                      }}
                     >
                       {s.value}
                     </span>
@@ -361,20 +451,51 @@ export function TercumanLanding() {
               </div>
               <div
                 className="absolute inset-0 pointer-events-none"
-                style={{ background: "linear-gradient(to right, #1a1a1a 0%, transparent 20%, transparent 80%, #1a1a1a 100%)" }}
+                style={{
+                  background:
+                    "linear-gradient(to right, #1a1a1a 0%, transparent 20%, transparent 80%, #1a1a1a 100%)",
+                }}
               />
               <div
                 className="absolute inset-0 pointer-events-none"
-                style={{ background: "linear-gradient(to bottom, transparent 50%, #1a1a1a 100%)" }}
+                style={{
+                  background:
+                    "linear-gradient(to bottom, transparent 50%, #1a1a1a 100%)",
+                }}
               />
             </div>
 
-            <div style={{ padding: "clamp(20px,2.5vh,32px) clamp(20px,2vw,32px)" }}>
-              <div style={{ width: "40px", height: "2px", background: "#B8975A", marginBottom: "16px" }} />
-              <p style={{ color: "rgba(255,255,255,0.9)", fontSize: "clamp(13px,1.2vw,16px)", lineHeight: 1.5, marginBottom: "6px" }}>
-                Kelimeler köprü kurar, biz o köprüyü<br />doğru inşa ediyoruz.
+            <div
+              style={{ padding: "clamp(20px,2.5vh,32px) clamp(20px,2vw,32px)" }}
+            >
+              <div
+                style={{
+                  width: "40px",
+                  height: "2px",
+                  background: "#B8975A",
+                  marginBottom: "16px",
+                }}
+              />
+              <p
+                style={{
+                  color: "rgba(255,255,255,0.9)",
+                  fontSize: "clamp(13px,1.2vw,16px)",
+                  lineHeight: 1.5,
+                  marginBottom: "6px",
+                }}
+              >
+                Kelimeler köprü kurar, biz o köprüyü
+                <br />
+                doğru inşa ediyoruz.
               </p>
-              <p style={{ color: "rgba(184,151,90,0.8)", fontSize: "clamp(10px,0.9vw,12px)", letterSpacing: "0.18em", textTransform: "uppercase" }}>
+              <p
+                style={{
+                  color: "rgba(184,151,90,0.8)",
+                  fontSize: "clamp(10px,0.9vw,12px)",
+                  letterSpacing: "0.18em",
+                  textTransform: "uppercase",
+                }}
+              >
                 Belgenizi gönderin — 48 saatte teslim
               </p>
             </div>
